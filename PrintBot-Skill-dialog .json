@@ -1,0 +1,3969 @@
+{
+  "intents": [
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "are stores open on sunday"
+        },
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Are you closed new Year's eve"
+        },
+        {
+          "text": "Are you closing early today"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on CNY?"
+        },
+        {
+          "text": "Are you open on Sunday"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "Do you open on public holidays?"
+        },
+        {
+          "text": "Hours of operation"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "how early do you open on Saturdays"
+        },
+        {
+          "text": "how late are you open"
+        },
+        {
+          "text": "how late are you open tonight"
+        },
+        {
+          "text": "how late are you there"
+        },
+        {
+          "text": "how late y'all stay up till"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "open hours store"
+        },
+        {
+          "text": "store hours"
+        },
+        {
+          "text": "store hrs"
+        },
+        {
+          "text": "store open"
+        },
+        {
+          "text": "store open hours?"
+        },
+        {
+          "text": "store open now"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "what are your hours"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time do you close"
+        },
+        {
+          "text": "what time do you close on Sunday"
+        },
+        {
+          "text": "What time do you close today"
+        },
+        {
+          "text": "What time do you open on Saturdays"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "when can i visit your store"
+        },
+        {
+          "text": "when does the store close"
+        },
+        {
+          "text": "when do you close"
+        },
+        {
+          "text": "when do your stores open"
+        },
+        {
+          "text": "will you open for christmas"
+        },
+        {
+          "text": "will you open on christmas"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "can you give me directions"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "give me directions"
+        },
+        {
+          "text": "Give me your office address"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "how do i find you"
+        },
+        {
+          "text": "how do i get to your business"
+        },
+        {
+          "text": "how do i get to your place"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "location please"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "what is the address"
+        },
+        {
+          "text": "what's your location"
+        },
+        {
+          "text": "where are you"
+        },
+        {
+          "text": "where are you located"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where are you situated"
+        },
+        {
+          "text": "Where is Expressprint"
+        },
+        {
+          "text": "Where is your office"
+        },
+        {
+          "text": "Where is your office?"
+        }
+      ],
+      "description": "Locate a physical store location or an address."
+    },
+    {
+      "intent": "Customer_Complain",
+      "examples": [
+        {
+          "text": "I am angry"
+        },
+        {
+          "text": "I am disappointed"
+        },
+        {
+          "text": "I am pissed"
+        },
+        {
+          "text": "I demand to speak"
+        },
+        {
+          "text": "i expected more"
+        },
+        {
+          "text": "i'm unhappy"
+        },
+        {
+          "text": "I want to complain"
+        },
+        {
+          "text": "I want to escalate"
+        },
+        {
+          "text": "I want to speak"
+        },
+        {
+          "text": "That's full of crap"
+        },
+        {
+          "text": "This is crap"
+        },
+        {
+          "text": "this is not enough"
+        },
+        {
+          "text": "This is shitty"
+        },
+        {
+          "text": "This sucks man"
+        },
+        {
+          "text": "Your service is shit"
+        }
+      ],
+      "description": "(ND) collection of customers' complaints"
+    },
+    {
+      "intent": "Customer_Request",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "call the manager"
+        },
+        {
+          "text": "Can I book an in person session"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "can i make an appointment"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "can you make an appointment for me"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could I speak to someone in the store next tuesday?"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "get me a person"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to speak with a robot"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I dont want to talk to a computer"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to compliment"
+        },
+        {
+          "text": "I want to praise"
+        },
+        {
+          "text": "I want to speak to a human"
+        },
+        {
+          "text": "I want to speak to a person"
+        },
+        {
+          "text": "I want to talk in person with someone about my case"
+        },
+        {
+          "text": "I want to talk to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want to talk to a representative"
+        },
+        {
+          "text": "I want to talk to someone"
+        },
+        {
+          "text": "I want to talk to the manager"
+        },
+        {
+          "text": "I wish to talk to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Let me talk to a live person"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Put me to a human please"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Set up an appt"
+        },
+        {
+          "text": "talk to boss"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "(ND) collection of customers' positive feedback"
+    },
+    {
+      "intent": "Delivery_Self_Collect",
+      "examples": [
+        {
+          "text": "Can I collect prints myself?"
+        },
+        {
+          "text": "Can I come and collect prints at your office / shop?"
+        },
+        {
+          "text": "can i self collect?"
+        },
+        {
+          "text": "Can self-collect"
+        },
+        {
+          "text": "could i go to your office and collect?"
+        },
+        {
+          "text": "Do you entertain self-collect?"
+        },
+        {
+          "text": "do you let me self collect?"
+        },
+        {
+          "text": "Do you provide self-collect service?"
+        },
+        {
+          "text": "I want to drop in your office to collect"
+        },
+        {
+          "text": "I want to self-collect"
+        },
+        {
+          "text": "Will somebody be at the shop so I can go collect the prints myself?"
+        }
+      ],
+      "description": "(LY) For self-collection enquiries"
+    },
+    {
+      "intent": "Delivery_Self_Courier",
+      "examples": [
+        {
+          "text": "can i self arrange courier?"
+        },
+        {
+          "text": "Can I use my own courier arrangements?"
+        },
+        {
+          "text": "can let me arrange my own courier"
+        },
+        {
+          "text": "Do you allow other couriers?"
+        },
+        {
+          "text": "Do you support use of couriers other than your own?"
+        },
+        {
+          "text": "Have a usual courier ... can you use him instead of your own?"
+        },
+        {
+          "text": "I request to arrange courier on my own"
+        },
+        {
+          "text": "I want to arrange courier"
+        },
+        {
+          "text": "I want to use some other courier, can?"
+        },
+        {
+          "text": "possible for me to self arrange courier?"
+        },
+        {
+          "text": "Will it be possible to let me self arrange courier?"
+        }
+      ],
+      "description": "(LY) For self-arranged courier enquiries"
+    },
+    {
+      "intent": "Delivery_Timeline_Fees",
+      "examples": [
+        {
+          "text": "How long does it take to deliver?"
+        },
+        {
+          "text": "How much is delivery?"
+        },
+        {
+          "text": "How much is the delivery fee?"
+        },
+        {
+          "text": "How much to deliver?"
+        },
+        {
+          "text": "How much to ship?"
+        },
+        {
+          "text": "how soon will the delivery be?"
+        },
+        {
+          "text": "What is the delivery fee?"
+        },
+        {
+          "text": "what is the delivery timeline"
+        },
+        {
+          "text": "what is the shipping amount"
+        },
+        {
+          "text": "When can you deliver?"
+        }
+      ],
+      "description": "(LY) For delivery timeline and fees enquiries"
+    },
+    {
+      "intent": "Delivery_Timeslots",
+      "examples": [
+        {
+          "text": "can i choose my delivery timeslot?"
+        },
+        {
+          "text": "Can I select my preferred delivery timeslot?"
+        },
+        {
+          "text": "Can you deliver at night?"
+        },
+        {
+          "text": "Can you deliver in the afternoon?"
+        },
+        {
+          "text": "Can you deliver in the evening?"
+        },
+        {
+          "text": "Can you deliver in the morning?"
+        },
+        {
+          "text": "Can you deliver only after office hours please?"
+        },
+        {
+          "text": "Can you deliver only during lunch time?"
+        },
+        {
+          "text": "Do you deliver at night?"
+        },
+        {
+          "text": "Do you deliver in the afternoon?"
+        },
+        {
+          "text": "Do you deliver in the evening?"
+        },
+        {
+          "text": "Do you deliver in the morning?"
+        },
+        {
+          "text": "is it possible for me to select the delivery timing?"
+        },
+        {
+          "text": "I want to decide on the delivery timeslot"
+        },
+        {
+          "text": "what are your available delivery timeslots?"
+        },
+        {
+          "text": "What time windows for delivery?"
+        }
+      ],
+      "description": "(LY) For delivery timeslot enquiries"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "Cheers"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "Cya"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "kkthxbye"
+        },
+        {
+          "text": "Sayonara"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "Ta ta"
+        }
+      ],
+      "description": "Good byes"
+    },
+    {
+      "intent": "Order_Issues",
+      "examples": [
+        {
+          "text": "I didn't get the right no. of items"
+        },
+        {
+          "text": "I didn't receive the correct number of items"
+        },
+        {
+          "text": "I have an issue with my order"
+        },
+        {
+          "text": "The colour is way off"
+        },
+        {
+          "text": "The colour of the print is different"
+        },
+        {
+          "text": "The item I received is wrong"
+        },
+        {
+          "text": "The item is sized wrongly"
+        },
+        {
+          "text": "The item size is incorrect"
+        },
+        {
+          "text": "The material doesn't look like what I ordered"
+        },
+        {
+          "text": "The material is incorrect"
+        },
+        {
+          "text": "The material is wrong"
+        },
+        {
+          "text": "The print dimensions are wrong"
+        },
+        {
+          "text": "The print I received is like nothing I ordered!"
+        },
+        {
+          "text": "The print I received is wrong"
+        },
+        {
+          "text": "The print is really bad"
+        },
+        {
+          "text": "The print is too big!"
+        },
+        {
+          "text": "The print is too large"
+        },
+        {
+          "text": "The print is too small!"
+        },
+        {
+          "text": "The print is wrong"
+        },
+        {
+          "text": "The print product is unacceptable"
+        },
+        {
+          "text": "The print size is incorrect"
+        },
+        {
+          "text": "The print size is wrong"
+        },
+        {
+          "text": "The product dimensions are incorrect"
+        },
+        {
+          "text": "The product I received has problems"
+        },
+        {
+          "text": "The product is nothing like what I wanted"
+        },
+        {
+          "text": "The quality of the print is bad"
+        },
+        {
+          "text": "There is a shortfall of quantity"
+        },
+        {
+          "text": "There's an issue with my print"
+        },
+        {
+          "text": "There's an issue with the product"
+        },
+        {
+          "text": "There's an unacceptable variation in my print"
+        },
+        {
+          "text": "There's a problem with the items I received"
+        },
+        {
+          "text": "There's a problem with your print"
+        },
+        {
+          "text": "There's something wrong with my order"
+        },
+        {
+          "text": "Wrong print delivered"
+        },
+        {
+          "text": "Wrong product delivered"
+        }
+      ],
+      "description": "(KM) Issues with orders"
+    },
+    {
+      "intent": "Order_Status_and_Delivery_Enquiries",
+      "examples": [
+        {
+          "text": "Cancel my order"
+        },
+        {
+          "text": "Change my order"
+        },
+        {
+          "text": "Have you sent the order?"
+        },
+        {
+          "text": "Have you shipped?"
+        },
+        {
+          "text": "i did not receive my order"
+        },
+        {
+          "text": "I have not received delivery of shipment"
+        },
+        {
+          "text": "I have not received my print"
+        },
+        {
+          "text": "I have not received my products"
+        },
+        {
+          "text": "i need help to order"
+        },
+        {
+          "text": "I need to cancel my order"
+        },
+        {
+          "text": "I want to cancel order"
+        },
+        {
+          "text": "Make adjustment to order"
+        },
+        {
+          "text": "Modify an order"
+        },
+        {
+          "text": "Not received my order"
+        },
+        {
+          "text": "Order not delivered yet"
+        },
+        {
+          "text": "Please tell me if my order has been shipped"
+        },
+        {
+          "text": "Print not delivered yet"
+        },
+        {
+          "text": "What's my order status"
+        },
+        {
+          "text": "Where's my order?"
+        },
+        {
+          "text": "Where's my print?"
+        }
+      ],
+      "description": "(KM) Order-related questions (e.g. status, cancel, etc.)"
+    },
+    {
+      "intent": "Payment_Method",
+      "examples": [
+        {
+          "text": "Can I have the invoice of payment"
+        },
+        {
+          "text": "Can I make payment by bank transfer"
+        },
+        {
+          "text": "Can I pay by Bitcoin?"
+        },
+        {
+          "text": "Can I pay by MasterCard?"
+        },
+        {
+          "text": "Can I pay by PayNow"
+        },
+        {
+          "text": "Can I pay by wire transfer?"
+        },
+        {
+          "text": "Can I pay cash"
+        },
+        {
+          "text": "Can you accept crossed cheques?"
+        },
+        {
+          "text": "Do I pay with NETS?"
+        },
+        {
+          "text": "Do you support digital currency?"
+        },
+        {
+          "text": "Do you support Ethereum or Bitcoin?"
+        },
+        {
+          "text": "Do you take checks?"
+        },
+        {
+          "text": "Do you take Paypal?"
+        },
+        {
+          "text": "How do I ask for invoice?"
+        },
+        {
+          "text": "How do I make payment"
+        },
+        {
+          "text": "How to pay"
+        },
+        {
+          "text": "How to pay with NETS?"
+        },
+        {
+          "text": "I need your GeBiz info"
+        },
+        {
+          "text": "installment?"
+        },
+        {
+          "text": "Is there credit term"
+        },
+        {
+          "text": "I want an invoice for Accounts please"
+        },
+        {
+          "text": "My company will wire money from overseas... need bank details"
+        },
+        {
+          "text": "Please provide GeBiz information"
+        },
+        {
+          "text": "Please send me an invoice"
+        },
+        {
+          "text": "What payment methods do you accept"
+        },
+        {
+          "text": "What's your GeBiz number?"
+        }
+      ],
+      "description": "(WA / KM) Payment Methods"
+    },
+    {
+      "intent": "Product_Information_or_Ordering",
+      "examples": [
+        {
+          "text": "Can print"
+        },
+        {
+          "text": "Do you carry"
+        },
+        {
+          "text": "Do you have"
+        },
+        {
+          "text": "Do you print"
+        },
+        {
+          "text": "Do you sell"
+        },
+        {
+          "text": "How do I print"
+        },
+        {
+          "text": "How much does it cost to print"
+        },
+        {
+          "text": "I want to order"
+        },
+        {
+          "text": "I want to print"
+        },
+        {
+          "text": "I wish to buy"
+        },
+        {
+          "text": "I wish to print"
+        },
+        {
+          "text": "What's the pricing for"
+        }
+      ],
+      "description": "(LY) For ordering products"
+    },
+    {
+      "intent": "Product_or_KnowledgeBase_Common_Questions",
+      "examples": [
+        {
+          "text": "Can you do"
+        },
+        {
+          "text": "Do you do"
+        },
+        {
+          "text": "Do you provide"
+        },
+        {
+          "text": "Do you support"
+        },
+        {
+          "text": "I'd like to know more about"
+        },
+        {
+          "text": "I need information about"
+        },
+        {
+          "text": "I need more information about"
+        },
+        {
+          "text": "I want to know more about"
+        },
+        {
+          "text": "More info about"
+        },
+        {
+          "text": "Please tell me more about"
+        },
+        {
+          "text": "Show me"
+        },
+        {
+          "text": "Show me information about"
+        },
+        {
+          "text": "Tell me about"
+        },
+        {
+          "text": "Tell me more about"
+        },
+        {
+          "text": "What about"
+        },
+        {
+          "text": "What are"
+        },
+        {
+          "text": "what are your"
+        },
+        {
+          "text": "what are your company's"
+        },
+        {
+          "text": "What do you mean by"
+        },
+        {
+          "text": "What is"
+        },
+        {
+          "text": "What is spot uv"
+        },
+        {
+          "text": "what is your"
+        },
+        {
+          "text": "what is your company's"
+        },
+        {
+          "text": "What sort of things do you have?"
+        },
+        {
+          "text": "What sort of things do you provide"
+        },
+        {
+          "text": "What's your bank account details?"
+        }
+      ],
+      "description": "(KM) For questions that may be used to ask about products or items in the Knowledgebase"
+    },
+    {
+      "intent": "Question_Out_Of_Chatbot_Scope",
+      "examples": [
+        {
+          "text": "Can you check what's wrong with my account?"
+        },
+        {
+          "text": "Do you delete our information after printing?"
+        },
+        {
+          "text": "Do you shred prints that fail QC?"
+        },
+        {
+          "text": "Do you sign NDA?"
+        },
+        {
+          "text": "How do you dispose of faulty prints?"
+        },
+        {
+          "text": "How do you dispose of information we sent you for printing?"
+        },
+        {
+          "text": "How do you handle classified information?"
+        },
+        {
+          "text": "I received a delivery today that I didn't order"
+        },
+        {
+          "text": "I received a print that's not mine"
+        },
+        {
+          "text": "I received the wrong package from you. This isn't mine."
+        },
+        {
+          "text": "I think my account has been hacked."
+        },
+        {
+          "text": "Something's wrong with my account"
+        },
+        {
+          "text": "There's money missing in my Wallet!"
+        }
+      ],
+      "description": "(ND) Questions that are challenging for the bot are redirected to live agents / email"
+    },
+    {
+      "intent": "Reset_PrintBot",
+      "examples": [
+        {
+          "text": "Please reset PrintBot"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "arigato"
+        },
+        {
+          "text": "domo"
+        },
+        {
+          "text": "i appreciate it"
+        },
+        {
+          "text": "kamsa hamida"
+        },
+        {
+          "text": "many thanks"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "Thank you very much!"
+        },
+        {
+          "text": "that's nice of you"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "TQ"
+        },
+        {
+          "text": "tyvm"
+        }
+      ],
+      "description": "Thanks"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "faq",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "artwork",
+          "synonyms": [
+            "artwork"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "artwork-service-charges",
+          "synonyms": [
+            "artwork service charges"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "banking-details",
+          "synonyms": [
+            "banking details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can-arrange-courier",
+          "synonyms": [
+            "can arrange courier",
+            "courier"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can-self-collect",
+          "synonyms": [
+            "can self collect",
+            "self collect",
+            "self-collect"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "delivery-fee-timeline",
+          "synonyms": [
+            "delivery",
+            "delivery fee",
+            "delivery time",
+            "delivery timeline",
+            "shipping",
+            "time to deliver"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "die-cut",
+          "synonyms": [
+            "die cut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "finishings",
+          "synonyms": [
+            "finishings"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "free-business-card-template-canva",
+          "synonyms": [
+            "free business card template canva"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hot-stamp-foil-stamp",
+          "synonyms": [
+            "hot stamp foil stamp",
+            "hotstamping"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "issues-print-result",
+          "synonyms": [
+            "issues print result"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "knowledge-base",
+          "synonyms": [
+            "knowledge base"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lamination",
+          "synonyms": [
+            "lamination"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "need-come-personally-place-order",
+          "synonyms": [
+            "need come personally place order"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "order-prices",
+          "synonyms": [
+            "order prices"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "placing-an-order",
+          "synonyms": [
+            "placing an order"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "printing-terms",
+          "synonyms": [
+            "printing terms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "print-result",
+          "synonyms": [
+            "print result"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "round-corner",
+          "synonyms": [
+            "round corner"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sending-files-us",
+          "synonyms": [
+            "sending files us"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "setting-pdf-preset",
+          "synonyms": [
+            "setting pdf preset"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "spot-uv",
+          "synonyms": [
+            "spot uv"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "spot-uv-artwork",
+          "synonyms": [
+            "spot uv artwork"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "standard-size-artwork",
+          "synonyms": [
+            "standard size artwork"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "what-is-digital-print",
+          "synonyms": [
+            "what is digital print"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "what-is-offset-print",
+          "synonyms": [
+            "what is offset print"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order_enquiry_options",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Order_Cancel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Delivery_Self-Collection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Edit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Issue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Status",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order_issue_options",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Order_Issue_Colour",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Issue_Material",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Issue_Quantity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Issue_Size",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Order_Issue_Unlisted",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "payment_category",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "gov_agency",
+          "synonyms": [
+            "payment_gov_agency"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "invoice_request",
+          "synonyms": [
+            "payment_invoice_request"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "online_order",
+          "synonyms": [
+            "payment_online_order"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "policies_non-kb",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "acceptable-print-policy",
+          "synonyms": [
+            "acceptable print policy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "contact-us",
+          "synonyms": [
+            "contact us"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "customer-testimonials",
+          "synonyms": [
+            "customer testimonials"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "feedback",
+          "synonyms": [
+            "feedback"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "help-center-artwork-orientation",
+          "synonyms": [
+            "help center artwork orientation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "helping-hand",
+          "synonyms": [
+            "helping hand"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "job-application",
+          "synonyms": [
+            "job application"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lowest-price-guarantee",
+          "synonyms": [
+            "lowest price guarantee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "news-announcement",
+          "synonyms": [
+            "news announcement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no-price-hike-guarantee",
+          "synonyms": [
+            "no price hike guarantee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "promotions",
+          "synonyms": [
+            "discount",
+            "promo",
+            "promotion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "proof-of-payment",
+          "synonyms": [
+            "proof of payment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quotation",
+          "synonyms": [
+            "quotation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "return-refund-policy",
+          "synonyms": [
+            "return refund policy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "satisfaction-policy",
+          "synonyms": [
+            "satisfaction policy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "submit-ticket",
+          "synonyms": [
+            "submit ticket"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "terms-and-conditions",
+          "synonyms": [
+            "terms and conditions"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "product",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "arch-file",
+          "synonyms": [
+            "arch file"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "booklet",
+          "synonyms": [
+            "booklet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bookmark",
+          "synonyms": [
+            "bookmark"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "brochure",
+          "synonyms": [
+            "brochure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "brochure-digital",
+          "synonyms": [
+            "brochure digital"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bunting-standee",
+          "synonyms": [
+            "bunting standee"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "business-card",
+          "patterns": [
+            "business[ -]*card[s]*",
+            "name[ -]*card[s]*",
+            "calling[ -]*card[s]*"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "business-card-express",
+          "synonyms": [
+            "business card express"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "business-card-holder",
+          "synonyms": [
+            "business card holder"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "business-die-cut",
+          "synonyms": [
+            "business die cut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "button-badge",
+          "synonyms": [
+            "button badge"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "certificate",
+          "synonyms": [
+            "certificate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "corporate-folder",
+          "synonyms": [
+            "corporate folder"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "desktop-calendar",
+          "synonyms": [
+            "desktop calendar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "document-folder",
+          "synonyms": [
+            "document folder"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "document-print-new",
+          "synonyms": [
+            "document print new"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "door-hanger",
+          "synonyms": [
+            "door hanger"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "easel-stand",
+          "synonyms": [
+            "easel stand"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "envelope",
+          "synonyms": [
+            "envelope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "face-mask-keeper",
+          "synonyms": [
+            "face mask keeper"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flagline",
+          "synonyms": [
+            "flagline"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flyer",
+          "synonyms": [
+            "flyer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flyer-digital-new",
+          "synonyms": [
+            "flyer digital new"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "folded-business-card",
+          "synonyms": [
+            "folded business card"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gift-box",
+          "synonyms": [
+            "gift box"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "greeting-card",
+          "synonyms": [
+            "greeting card"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hand-fan",
+          "synonyms": [
+            "hand fan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hard-cover-menu",
+          "synonyms": [
+            "hard cover menu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hardcover-note-book",
+          "synonyms": [
+            "hardcover note book"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "label",
+          "synonyms": [
+            "label"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "letterhead",
+          "synonyms": [
+            "letterhead"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lf-poster",
+          "synonyms": [
+            "lf poster"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "l-shape-plastic-folder",
+          "synonyms": [
+            "l shape plastic folder"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "magnet",
+          "synonyms": [
+            "magnet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "money-packet",
+          "synonyms": [
+            "money packet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mouse-pad",
+          "synonyms": [
+            "mouse pad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mug",
+          "synonyms": [
+            "mug"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ncr-form",
+          "synonyms": [
+            "ncr form"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "non-woven-bag",
+          "synonyms": [
+            "non woven bag"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "note-pad",
+          "synonyms": [
+            "note pad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "paper-bag",
+          "synonyms": [
+            "paper bag"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "paper-card-samples",
+          "synonyms": [
+            "paper card samples"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "postcard",
+          "synonyms": [
+            "postcard"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "poster",
+          "synonyms": [
+            "poster"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "puzzle",
+          "synonyms": [
+            "puzzle"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rollup-stand",
+          "synonyms": [
+            "rollup stand"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rubber-stamp",
+          "synonyms": [
+            "rubber stamp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "static-cling-window-sticker",
+          "synonyms": [
+            "static cling window sticker"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tag",
+          "synonyms": [
+            "tag"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tent-card",
+          "synonyms": [
+            "tent card"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tissue-box",
+          "synonyms": [
+            "tissue box"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wobbler",
+          "synonyms": [
+            "wobbler"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "x-stand",
+          "synonyms": [
+            "x stand"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "product-category",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "digital-printing",
+          "synonyms": [
+            "digital printing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "large-format-printing",
+          "synonyms": [
+            "large format printing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "offset-printing",
+          "synonyms": [
+            "offset printing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "personalised-gift",
+          "synonyms": [
+            "personalised gift"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "don't think so",
+            "dont think so",
+            "i think not",
+            "no leh",
+            "nope",
+            "not at all",
+            "not at this time",
+            "not now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "definitely",
+            "go for it",
+            "let's do it",
+            "ok",
+            "please",
+            "sure",
+            "why not",
+            "ya",
+            "yeah",
+            "yep",
+            "yes",
+            "you bet",
+            "you betcha",
+            "yup"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/fac84786-b074-4c48-87a2-d938c9c73b16/default/ExpressPrint%20Function.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Office Location Query",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is the Expressprint address / location information you requested:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Location Map",
+            "source": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.721822754851!2d103.84821501524841!3d1.343305699020268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da173ef82ed12b%3A0x39863f6c74907dd1!2sExpressprint%20(Toa%20Payoh)!5e0!3m2!1sen!2ssg!4v1645169378042!5m2!1sen!2ssg",
+            "response_type": "iframe"
+          }
+        ]
+      },
+      "context": {
+        "counter": 0
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Customer_Care_Store_Location",
+      "digress_in": "does_not_return",
+      "dialog_node": "Directions",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1645360803763"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1645019762167",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1645019762193",
+      "previous_sibling": "handler_8_1645019762193"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1645019762167",
+      "event_name": "input",
+      "dialog_node": "handler_8_1645019762193"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did I answer your question?"
+              },
+              {
+                "text": "Is your query resolved?"
+              },
+              {
+                "text": "Are you satisfied with the answer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1645153569424",
+      "previous_sibling": "node_3_1645087234451"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmation Response",
+      "parent": "node_10_1645153569424",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1645153645968"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good afternoon",
+            "Hi there. It's a beautiful afternoon",
+            "Good afternoon. How can I help?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('16:59:59')",
+      "dialog_node": "node_1_1495022305143",
+      "previous_sibling": "node_16_1488295517679"
+    },
+    {
+      "type": "standard",
+      "title": "Product Enquiry",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Product_Information_or_Ordering || @product",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1645024932137",
+      "previous_sibling": "node_13_1502484041694"
+    },
+    {
+      "type": "standard",
+      "title": "Payment Enquiry",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Payment_Method",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1645161709448",
+      "previous_sibling": "node_5_1645076512435"
+    },
+    {
+      "type": "standard",
+      "title": "Knowledge Base FAQ Enquiry",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Product_or_KnowledgeBase_Common_Questions",
+      "dialog_node": "node_1_1645190536911",
+      "previous_sibling": "node_1_1645024932137"
+    },
+    {
+      "type": "standard",
+      "title": "If Yes - Order Enquiry Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please select an option below so I may service your request accordingly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Order Enquiry Option",
+            "options": [
+              {
+                "label": "Edit / Change an order",
+                "value": {
+                  "input": {
+                    "text": "Order_Edit"
+                  }
+                }
+              },
+              {
+                "label": "Cancel an order",
+                "value": {
+                  "input": {
+                    "text": "Order_Cancel"
+                  }
+                }
+              },
+              {
+                "label": "Check order status",
+                "value": {
+                  "input": {
+                    "text": "Order_Status"
+                  }
+                }
+              },
+              {
+                "label": "Order Delivery / Self-Collection",
+                "value": {
+                  "input": {
+                    "text": "Order_Delivery_Self-Collection"
+                  }
+                }
+              },
+              {
+                "label": "Issue with an order",
+                "value": {
+                  "input": {
+                    "text": "Order_Issue"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1645338551486",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_1_1645341651805"
+    },
+    {
+      "type": "standard",
+      "title": "If No - Search Knowledgebase",
+      "output": {},
+      "parent": "node_4_1645338551486",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply != \"yes\"",
+      "dialog_node": "node_1_1645344813978",
+      "previous_sibling": "node_1_1645341651805"
+    },
+    {
+      "type": "standard",
+      "title": "#Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bye, $name! "
+              },
+              {
+                "text": "Good bye, $name."
+              },
+              {
+                "text": "See ya, $name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_12_1468329566917",
+      "previous_sibling": "node_2_1468243505617"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1502484041694",
+      "previous_sibling": "Opening"
+    },
+    {
+      "type": "standard",
+      "title": "If No - Search Knowledgebase",
+      "output": {},
+      "parent": "node_5_1645360803763",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply != \"yes\"",
+      "dialog_node": "node_14_1645360803766",
+      "previous_sibling": "node_6_1645360803766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good evening",
+            "Hi. Good evening",
+            "Hello. How can I help this evening?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "node_15_1488295465298",
+      "previous_sibling": "node_1_1495022305143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good morning",
+            "It's a beautiful morning. Hello",
+            "Hi there. How can I help you this morning?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('04:00:00') && now().before('11:59:59')",
+      "dialog_node": "node_16_1488295517679"
+    },
+    {
+      "type": "standard",
+      "title": "#Thanks",
+      "output": {
+        "text": {
+          "values": [
+            "You're welcome, $name. Just let me know if you need anything else",
+            "No problem, $name. Just let me know if you need anything else",
+            "My pleasure. Just let me know if you need anything else"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Thanks",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1468243505617",
+      "previous_sibling": "node_6_1645174180477"
+    },
+    {
+      "type": "standard",
+      "title": "Payment Enquiry Response",
+      "parent": "node_1_1645161709448",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@payment_category",
+      "dialog_node": "node_2_1645161709455",
+      "previous_sibling": "response_11_1645161709455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello",
+            "Hi there",
+            "Hi. How can I help"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "dialog_node": "node_28_1522448362216",
+      "previous_sibling": "node_15_1488295465298"
+    },
+    {
+      "type": "standard",
+      "title": "Name Node",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, $name! Nice to meet you. How can I help you today?"
+              },
+              {
+                "text": "Hello, $name! Thanks for visiting Expressprint. Please feel free to ask me a question. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Opening",
+      "context": {
+        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1644994974040",
+      "previous_sibling": "slot_9_1645019762167"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else or Questions We Can't Understand",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else || @reply:no",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1645087234451",
+      "previous_sibling": "node_4_1645075269462"
+    },
+    {
+      "type": "standard",
+      "title": "Interfacing to Email or Live Chat",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Customer_Complain || #Customer_Request || #Question_Out_Of_Chatbot_Scope || $counter > 2",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1645075269462",
+      "previous_sibling": "node_8_1645609315321"
+    },
+    {
+      "type": "standard",
+      "title": "Orders Status / Change / Delivery Enquiry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you asking about an existing order you've placed?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Order_Status_and_Delivery_Enquiries",
+      "dialog_node": "node_4_1645338551486",
+      "previous_sibling": "node_1_1645161709448"
+    },
+    {
+      "type": "standard",
+      "title": "Product Show Similar",
+      "parent": "node_1_1645024932137",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "product": "$product"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@product",
+      "dialog_node": "node_5_1645024962990"
+    },
+    {
+      "type": "standard",
+      "title": "Delivery Timeslot Enquiry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Apologies, $name. We do not have the delivery schedule at hand as we engage a third-party courier company. A tracking number will be provided to you upon payment of your order."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "counter": 0
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "#Delivery_Timeslots",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1645076512435",
+      "previous_sibling": "node_6_1645073790105"
+    },
+    {
+      "type": "standard",
+      "title": "Order Issues",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have you received your order?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Order_Issues",
+      "dialog_node": "node_5_1645360803763",
+      "previous_sibling": "node_4_1645338551486"
+    },
+    {
+      "type": "standard",
+      "title": "Delivery Related Enquiries",
+      "output": {
+        "generic": [
+          {
+            "query": "<?input.text?>",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "#Delivery_Timeline_Fees || #Delivery_Self_Collect || #Delivery_Self_Courier",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1645073790105",
+      "previous_sibling": "node_1_1645190536911"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hope we have helped you well, $name. Please feel free to continue asking me questions about our products and services."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1645075269462",
+      "context": {
+        "counter": 0
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1645075985925"
+    },
+    {
+      "type": "standard",
+      "title": "Business Hours Query",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our operating hours are as follows:"
+              },
+              {
+                "text": "- Monday to Thursday: 9.30am to 6pm\n- Friday: 9.30am to 5pm\n- Saturday, Sunday & Public Holiday: Closed\n"
+              },
+              {
+                "text": "For more information, please go to our website: https://www.expressprint.com.sg/contact-us/."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "context": {
+        "counter": 0
+      },
+      "conditions": "#Customer_Care_Store_Hours",
+      "dialog_node": "node_6_1645174180477",
+      "previous_sibling": "Directions"
+    },
+    {
+      "type": "standard",
+      "title": "If Yes - Order Issue Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please select an option below so I may service your request accordingly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Order Issue Option",
+            "options": [
+              {
+                "label": "Shortfall of quantity",
+                "value": {
+                  "input": {
+                    "text": "Order_Issue_Quantity"
+                  }
+                }
+              },
+              {
+                "label": "Printed colour is different",
+                "value": {
+                  "input": {
+                    "text": "Order_Issue_Colour"
+                  }
+                }
+              },
+              {
+                "label": "Product size is different",
+                "value": {
+                  "input": {
+                    "text": "Order_Issue_Size"
+                  }
+                }
+              },
+              {
+                "label": "Material is wrong",
+                "value": {
+                  "input": {
+                    "text": "Order_Issue_Material"
+                  }
+                }
+              },
+              {
+                "label": "My issue is not listed",
+                "value": {
+                  "input": {
+                    "text": "Order_Issue_Unlisted"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1645360803763",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_6_1645360803766"
+    },
+    {
+      "type": "standard",
+      "title": "Process Order Issue Menu Selection",
+      "output": {},
+      "parent": "node_6_1645360803766",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@order_issue_options",
+      "dialog_node": "node_7_1645360803766"
+    },
+    {
+      "type": "standard",
+      "title": "Process Order Enquiry Menu Selection",
+      "parent": "node_1_1645341651805",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@order_enquiry_options",
+      "dialog_node": "node_8_1645346407637"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clearing things up ... <? context.clear() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Opening"
+      },
+      "conditions": "#Reset_PrintBot",
+      "dialog_node": "node_8_1645609315321",
+      "previous_sibling": "node_12_1468329566917"
+    },
+    {
+      "type": "standard",
+      "title": "Customer_Irrelevant_Questions_Final",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Apologies $name, but I am still having trouble understanding you. Let me transfer your case to our human consultants so that we can provide you with further assistance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1645087234451",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1645075269462"
+      },
+      "conditions": "$counter > 2",
+      "dialog_node": "node_9_1645151848478",
+      "previous_sibling": "response_7_1645285816473"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there, I'm PrintBot, your 24x7 Expressprint virtual consultant. I can help with questions about:"
+              },
+              {
+                "text": "- Products and services,\n- Order, delivery and payment, \n- Operating hours and store location\n  "
+              },
+              {
+                "text": "How may I address you? 😁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "context": {
+        "name": "",
+        "counter": 0,
+        "product": ""
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Opening"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry that I still don't quite get the question, $name 😔.  Please rephrase your question once again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1645087234451",
+      "context": {
+        "counter": "<? $counter + 1 ?>"
+      },
+      "conditions": "$counter == 1",
+      "dialog_node": "response_10_1645197766946",
+      "previous_sibling": "response_2_1645173430749"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name,"
+              },
+              {
+                "text": "Please refer to our Acceptable Print Policy here: https://www.expressprint.com.sg/acceptable-print-policy/"
+              },
+              {
+                "text": "Please note that if the observed variation (size or print colour) in the product your received is within the acceptable tolerance limits in the document above, we will not be able to accept a request to reprint."
+              },
+              {
+                "text": "However, if your observed variation falls outside the tolerance limits, we will gladly reprint. In this case, please submit a support ticket with the appropriate information here: "
+              },
+              {
+                "text": "https://www.expressprint.com.sg/submit-ticket"
+              },
+              {
+                "text": "Our service consultant will get in touch with you by the end of the next business day. Thanks. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1645360803766",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "(@order_issue_options:Order_Issue_Colour || @order_issue_options:Order_Issue_Size)",
+      "dialog_node": "response_10_1645360803766",
+      "previous_sibling": "response_9_1645360803766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "query": "@policies_non-kb, extracted_metadata.title:\"@policies_non-kb\"",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_1_1645190536911",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@policies_non-kb",
+      "dialog_node": "response_10_1645495490236",
+      "previous_sibling": "response_5_1645190536913"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose one of the options below, $name:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "I'm from a Government Agency",
+                "value": {
+                  "input": {
+                    "text": "gov_agency"
+                  }
+                }
+              },
+              {
+                "label": "I wish to make an online order",
+                "value": {
+                  "input": {
+                    "text": "online_order"
+                  }
+                }
+              },
+              {
+                "label": "I'm ordering for my company and need an invoice for Accounts to make payments",
+                "value": {
+                  "input": {
+                    "text": "invoice_request"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1645161709448",
+      "context": {},
+      "dialog_node": "response_11_1645161709455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please refer to this website for more information related to: <a href=\"$baseurl/$kb_dir/@faq\">@faq</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1645073790105",
+      "disabled": true,
+      "conditions": "@faq",
+      "dialog_node": "response_1_1645074576240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your enquiry, $name. Unfortunately, we do not have this product. Please feel free to browse our catalog: https://www.expressprint.com.sg/shop."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1645024932137",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "true",
+      "dialog_node": "response_1_1645170368452",
+      "previous_sibling": "response_3_1645024932142"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order."
+              },
+              {
+                "text": "From there, you may edit the order if the status is still \"Pending for Approval\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1645346407637",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@order_enquiry_options:Order_Edit",
+      "dialog_node": "response_1_1645348279697"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please select an option below so I may service your request accordingly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Order Enquiry Option",
+            "options": [
+              {
+                "label": "Edit / Change an order",
+                "value": {
+                  "input": {
+                    "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order.   From there, you may edit the order if the status is still \"Pending for Approval\"."
+                  }
+                }
+              },
+              {
+                "label": "Cancel an order",
+                "value": {
+                  "input": {
+                    "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order.   From there, you may cancel the order if the status is still \"Pending for Approval\".  ** Do note that we will credit 100% of payment made to EP Wallet for your future purchase. For cash (Pay Now / credit card) refund, there will be a 10% admin fee charge incurred. The balance will be refunded to your account within 7 business days."
+                  }
+                }
+              },
+              {
+                "label": "Check order status",
+                "value": {
+                  "input": {
+                    "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order.   You'll also receive an e-mail from Expressprint informing you of any changes in the order status."
+                  }
+                }
+              },
+              {
+                "label": "Order Delivery ",
+                "value": {
+                  "input": {
+                    "text": "Order Delivery "
+                  }
+                }
+              },
+              {
+                "label": "Self-Collection",
+                "value": {
+                  "input": {
+                    "text": "Self-Collection"
+                  }
+                }
+              },
+              {
+                "label": "Issue with an order",
+                "value": {
+                  "input": {
+                    "text": "Order Issue"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1645360803766",
+      "context": {},
+      "disabled": true,
+      "dialog_node": "response_13_1645360803766",
+      "previous_sibling": "node_7_1645360803766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name. Sorry, I'm unable to help you with a specific order issue if you've not received your order yet. If you'd like to check the status of your order, please log in to your account and you'll be able to see the order status. You'll also receive an e-mail informing you of any status changes. Thanks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1645360803766",
+      "conditions": "@reply:no",
+      "dialog_node": "response_15_1645360803766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, please answer Yes or No so that I can figure out how to answer your question. Thanks. :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1645360803766",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1645360803763"
+      },
+      "conditions": "true",
+      "dialog_node": "response_16_1645360803766",
+      "previous_sibling": "response_15_1645360803766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry $name, I have trouble understanding you. Please rephrase your question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1645087234451",
+      "context": {
+        "counter": "<? $counter + 1 ?>"
+      },
+      "conditions": "$counter == 0",
+      "dialog_node": "response_2_1645173430749"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your enquiry, $name. Please click on this link to view information and place orders for @product: https://www.expressprint.com.sg/product/@product"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1645024932137",
+      "context": {
+        "counter": 0,
+        "product": "@product"
+      },
+      "conditions": "@product",
+      "dialog_node": "response_3_1645024932142",
+      "previous_sibling": "node_5_1645024962990"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<? output.generic.addAll($webhook_result_1.arr) ?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1645024962990",
+      "context": {},
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_3_1645027975918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, as we are closed for business at this moment, please kindly fill in our contact form: https://www.expressprint.com.sg/feedback."
+              },
+              {
+                "text": "We'll get back to you within 2 working days."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1645075269462",
+      "context": {},
+      "conditions": "true",
+      "dialog_node": "response_3_1645075313253",
+      "previous_sibling": "response_8_1645075938688"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Expressprint is a registered business in Gebiz / Vendors. \nKindly search for UEN 53036116K (Expressprint). \n\nThe procedure from order to delivery is as follows:\n- Request a quote from Expressprint with full organisation details\n- Expressprint will send you an official quotation\n- Revert for approval via Email or Signed copy or issue PO from Gebiz\n- Expressprint will start printing\n- Upon completion (successfully delivered or self collected), Expressprint will issue an eInvoice for payment process"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1645161709455",
+      "conditions": "@payment_category:gov_agency",
+      "dialog_node": "response_3_1645161709455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "query": "metadata.source.url:\"knowledge-base\", <? input.text ?>, extracted_metadata.title:\"<? input.text ?>\"",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_1_1645344813978",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_3_1645344813983"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1645153645968",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1645087234451"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_4_1645153732770",
+      "previous_sibling": "response_7_1645153689339"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is easy; simply select option in the Product Pricing Calculator, add to cart and check out. \nWe accept:\n- Credit Card\n- PayNow"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1645161709455",
+      "conditions": "@payment_category:online_order",
+      "dialog_node": "response_4_1645161709455",
+      "previous_sibling": "response_3_1645161709455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1645190536911",
+      "context": {
+        "product": "@product"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1645024932137"
+      },
+      "conditions": "@product",
+      "dialog_node": "response_4_1645190536913"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, please answer Yes or No so that I can figure out how to answer your question. Thanks. :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1645344813978",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1645338551486"
+      },
+      "conditions": "true",
+      "dialog_node": "response_4_1645344813983",
+      "previous_sibling": "response_3_1645344813983"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, the pricing will be the same as reflected in the Product Pricing Calculator. \nKindly fill in this form <link> and our consultant will revert to you with a proforma invoice. \n\n***Do note that we can only proceed to print upon payment received"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1645161709455",
+      "conditions": "@payment_category:invoice_request",
+      "dialog_node": "response_5_1645162586807",
+      "previous_sibling": "response_4_1645161709455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "query": "metadata.source.url:\"knowledge-base\", @faq, extracted_metadata.title:\"@faq\"",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_1_1645190536911",
+      "context": {
+        "faq": "@faq"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@faq",
+      "dialog_node": "response_5_1645190536913",
+      "previous_sibling": "response_4_1645190536913"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, please help me understand if I've answered your question correctly, so I can assist you better."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1645153645968",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "true",
+      "dialog_node": "response_5_1645196883309",
+      "previous_sibling": "response_4_1645153732770"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order."
+              },
+              {
+                "text": "You'll also receive an e-mail from Expressprint informing you of any changes in the order status."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1645346407637",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@order_enquiry_options:Order_Status",
+      "dialog_node": "response_5_1645348572385",
+      "previous_sibling": "response_6_1645348438205"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1645346407637",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1645360803763"
+      },
+      "conditions": "@order_enquiry_options:Order_Issue",
+      "dialog_node": "response_5_1645348868310",
+      "previous_sibling": "response_8_1645348872934"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, I'm sorry that I'm currently unable to answer your question. Please provide details of your query/request in our contact form: https://www.expressprint.com.sg/feedback. "
+              },
+              {
+                "text": "We'll get back to you within 2 working days."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1645075269462",
+      "conditions": "#Question_Out_Of_Chatbot_Scope",
+      "dialog_node": "response_6_1645282009273",
+      "previous_sibling": "response_9_1645281733340"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please select an option below so I may service your request accordingly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Order Enquiry Option",
+            "options": [
+              {
+                "label": "Edit / Change an order",
+                "value": {
+                  "input": {
+                    "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order.   From there, you may edit the order if the status is still \"Pending for Approval\"."
+                  }
+                }
+              },
+              {
+                "label": "Cancel an order",
+                "value": {
+                  "input": {
+                    "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order.   From there, you may cancel the order if the status is still \"Pending for Approval\".  ** Do note that we will credit 100% of payment made to EP Wallet for your future purchase. For cash (Pay Now / credit card) refund, there will be a 10% admin fee charge incurred. The balance will be refunded to your account within 7 business days."
+                  }
+                }
+              },
+              {
+                "label": "Check order status",
+                "value": {
+                  "input": {
+                    "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order.   You'll also receive an e-mail from Expressprint informing you of any changes in the order status."
+                  }
+                }
+              },
+              {
+                "label": "Order Delivery ",
+                "value": {
+                  "input": {
+                    "text": "Order Delivery "
+                  }
+                }
+              },
+              {
+                "label": "Self-Collection",
+                "value": {
+                  "input": {
+                    "text": "Self-Collection"
+                  }
+                }
+              },
+              {
+                "label": "Issue with an order",
+                "value": {
+                  "input": {
+                    "text": "Order Issue"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1645341651805",
+      "context": {},
+      "disabled": true,
+      "dialog_node": "response_6_1645345201187",
+      "previous_sibling": "node_8_1645346407637"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, kindly log in to your account and you'll be able to see the status of your order."
+              },
+              {
+                "text": "From there, you may cancel the order if the status is still \"Pending for Approval\". "
+              },
+              {
+                "text": "** Do note that we will credit 100% of payment made to EP Wallet for your future purchase. "
+              },
+              {
+                "text": "For cash (Pay Now / credit card) refund, there will be a 10% admin fee charge incurred. The balance will be refunded to your account within 7 business days."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1645346407637",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@order_enquiry_options:Order_Cancel",
+      "dialog_node": "response_6_1645348438205",
+      "previous_sibling": "response_1_1645348279697"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I managed to help, $name. Please feel free to ask me any other questions.😊"
+              },
+              {
+                "text": "Righto! Please feel free to ask me any other questions, $name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1645153645968",
+      "context": {
+        "counter": 0
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "response_7_1645153689339"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1645087234451",
+      "context": {
+        "counter": "<? $counter +1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1645151848478"
+      },
+      "conditions": "$counter >= 2",
+      "dialog_node": "response_7_1645285816473",
+      "previous_sibling": "response_10_1645197766946"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, looks like our dedicated \"live\" service consultants will be able to assist you better on your request / question. Please click on the link here to proceed to the \"live chat\" screen:"
+              },
+              {
+                "text": "https://test.dl61syovuvj4c.amplifyapp.com/livechat.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1645075269462",
+      "context": {},
+      "conditions": "(#Customer_Request || $counter > 2) && now().after('08:00:00') && now().before('17:59:59')",
+      "dialog_node": "response_8_1645075938688",
+      "previous_sibling": "response_6_1645282009273"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, please feel free to ask me questions about delivery and self-collection and I'll answer you accordingly. For example, you can ask me:"
+              },
+              {
+                "text": "- \"What is the delivery timeline?\"\n- \"Can I self-collect?\"\n- \"Can I use my own courier?\"\n- \"What is the delivery fee?\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1645346407637",
+      "conditions": "@order_enquiry_options:Order_Delivery_Self-Collection",
+      "dialog_node": "response_8_1645348872934",
+      "previous_sibling": "response_5_1645348572385"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, I'm sorry to hear that. Please submit a support ticket with the appropriate information here:"
+              },
+              {
+                "text": "https://www.expressprint.com.sg/submit-ticket"
+              },
+              {
+                "text": "Our service consultant will get in touch with you by the end of the next business day. Thanks. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1645360803766",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "(@order_issue_options:Order_Issue_Material || @order_issue_options:Order_Issue_Unlisted)",
+      "dialog_node": "response_8_1645360803766",
+      "previous_sibling": "response_10_1645360803766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "query": "<? input.text ?>",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_1_1645190536911",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "true",
+      "dialog_node": "response_8_1645430041320",
+      "previous_sibling": "response_10_1645495490236"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, we value your feedback as it helps us to serve you better. Please kindly fill in our contact form and provide more information about the situation: https://www.expressprint.com.sg/feedback. "
+              },
+              {
+                "text": "We'll get back to you within 2 working days."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1645075269462",
+      "conditions": "#Customer_Complain",
+      "dialog_node": "response_9_1645281733340",
+      "previous_sibling": "node_6_1645075985925"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name, "
+              },
+              {
+                "text": "While every endeavour is made to deliver the correct quantity ordered, some variation is inherent in the print process. It is understood and accepted as reasonable that minor variations are immaterial, and that Expressprint shall have no liability in respect of such variations. "
+              },
+              {
+                "text": "Please refer to the acceptable quantity variation (item no. 10. Variations in quantity) in our Terms and Conditions available here:"
+              },
+              {
+                "text": "https://www.expressprint.com.sg/terms-and-conditions/"
+              },
+              {
+                "text": "Did the quantity received fall within the acceptable quantity variation stated in the document linked above? If not, please submit a support ticket with the appropriate information here: "
+              },
+              {
+                "text": "https://www.expressprint.com.sg/submit-ticket"
+              },
+              {
+                "text": "Our service consultant will get in touch with you by the end of the next business day. Thanks. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1645360803766",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1645153569424"
+      },
+      "conditions": "@order_issue_options:Order_Issue_Quantity",
+      "dialog_node": "response_9_1645360803766"
+    },
+    {
+      "type": "slot",
+      "parent": "Opening",
+      "dialog_node": "slot_9_1645019762167"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "eat pies"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "PrintBot Skill",
+  "language": "en",
+  "description": "Sample simple customer service skill to get you started."
+}
